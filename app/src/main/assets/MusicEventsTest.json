@@ -1,0 +1,24 @@
+{
+  "MusicEvents": [
+    {
+      "Title": "Blink 182",
+      "Date": "October 7",
+      "Day": "Friday",
+      "Time": "7:00 PM",
+      "Location": "Irvine Meadows (formerly Verizon Wireless)",
+      "Address1": "8808 Irvine Center Drive",
+      "Address2": "Irvine, California 92618",
+      "ImageName": "Blink182.jpeg"
+    },
+    {
+      "Title": "Ben Folds And A Piano",
+      "Date": "October 20",
+      "Day": "Thursday",
+      "Time": "8:00 PM",
+      "Location": "City National Grove of Anaheim",
+      "Address1": "2200 E Katella Ave",
+      "Address2": "Anaheim, California",
+      "ImageName": "BenFoldsAndAPiano.jpeg"
+    }
+  ]
+}

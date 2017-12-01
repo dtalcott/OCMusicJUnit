@@ -69,43 +69,34 @@ public class MusicEventTest
     }
 
     @Test
-    public void getAddress1() throws Exception
+    public void getSetAddress1() throws Exception
     {
         //empty
         assertNull("Testing that the address 1 is null", testEvent.getAddress1());
         //Has an Address 1
-        testEvent.setTime("123 Katella");
+        testEvent.setAddress1("123 Katella");
         assertEquals("Testing that the address 1 is 123 Katella", "123 Katella", testEvent.getAddress1());
     }
 
-    @Test
-    public void setAddress1() throws Exception
-    {
-
-    }
 
     @Test
     public void getAddress2() throws Exception
     {
-
-    }
-
-    @Test
-    public void setAddress2() throws Exception
-    {
-
+        //empty
+        assertNull("Testing that the address 2 is null", testEvent.getAddress2());
+        //Has an Address 2
+        testEvent.setAddress2("Anaheim, California");
+        assertEquals("Testing that the address 2 is Anaheim, California", "Anaheim, California", testEvent.getAddress2());
     }
 
     @Test
     public void getImageName() throws Exception
     {
-
-    }
-
-    @Test
-    public void setImageName() throws Exception
-    {
-
+        //empty
+        assertNull("Testing that the imageName is null", testEvent.getImageName());
+        //Has an Address 2
+        testEvent.setImageName("red.jpeg");
+        assertEquals("Testing that the imageName is red.jpeg", "red.jpeg", testEvent.getImageName());
     }
 
 }
